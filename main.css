@@ -24,3 +24,27 @@ img{
   font-size: 1.2vw;
   
 }
+.nevjegy{
+  float:left;
+  background-color:cornflowerblue;
+  margin:10px;
+  padding:8px 12px;  
+  font-size:17px;
+  color:white;
+  border: 1px solid black;
+  border-radius:5px;
+}
+.nevjegy a{
+  text-decoration:none;
+}
+.nevjegy a:hover{
+  color:white;
+  text-decoration:underline;  
+}
+
+
+
+
+
+
+

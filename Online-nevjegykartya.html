@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>    
+  <meta charset="utf-8">
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by b3ri (http://jsbin.com/vanilox/12/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width"> 
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+
+  <title>b3ri</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style text/css">
+*
+body{
+  background-image:url("https://cdn.pixabay.com/photo/2018/06/09/17/25/trees-3464777__340.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-top:50px;
+}
+
+main{
+  background-color: rgba(137, 0, 0, .4);
+  max-width:1000px;
+  height:auto;
+  margin:20px auto;
+  padding:10px;
+  box-shadow:0 0 15px rgba(215, 255, 80, .9);
+  border-radius:20px;
+}
+
+h1{
+  display:block;
+  max-width:235px;
+  padding:5px;  
+  text-align:center;
+  font-size: 2rem;
+  margin:15px 0 10px 0;
+  text-shadow:0 0 4px black;
+}
+
+h2{
+  display:block;
+  max-width:235px;
+  padding:5px;  
+  text-align:center;
+  font-size: 1.2rem;
+  margin-bottom:10px;
+  text-shadow:0 0 3px black;
+}
+
+h3{
+  display:block;
+  max-width:235px;
+  padding:5px;  
+  text-align:center;
+  font-size:1.1rem;
+  text-shadow:0 0 2px black;
+}
+
+h1, h2, h3{
+  margin:auto;
+  margin-top:5px;
+}
+
+p{
+  margin:10px;
+  text-shadow:0 0 5px black;
+  line-height:1.2em;
+}
+
+img{
+  width:100%;
+  height:auto;
+  border-radius:20%;
+  transition-duration: .5s;
+}
+
+img:hover {
+  transform:scale(1);
+  transition-duration: .5s;
+  border-radius:50%;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display:inline;
+  background-color:silver;
+  margin:10px;
+}
+
+a:hover{
+  background-color: orangered;
+}
+
+
+
+
+
+.header-content{
+  background-color: rgba(77, 103, 255, .7);
+  max-width:1000px;
+  height:175px;
+  margin-bottom:4vw;
+  border:1px solid yellow;
+  border-radius:20px;
+  text-align:center;
+  color:silver;
+}
+.header-image{
+  margin:auto;
+  width:120px;
+  height:auto;
+}
+
+
+/* Középső doboz */
+.content{
+  border-radius:20px;  
+  background-color: rgba(22, 64, 255, .8);
+  max-width:1000px;
+  min-height:220px;
+  border: 2px solid silver;
+  margin-bottom:4vw;
+  color:white;
+}
+/* Középső doboz vége*/
+.content-image{
+  position:absolute;
+  display:block;
+  float:left;
+  width:150px;
+  height:auto;
+  margin:10px;
+  padding:5px;
+}
+/* Középső doboz jobb hasáb*/
+.right{
+  position:absolute; 
+  float:left;
+  max-width:750px;
+  text-align:justify;
+  font-size:17px;
+  margin:0 10px 10px 190px;
+  padding:10px;
+}
+/* Középső doboz jobb hasáb vége*/
+
+
+.footer-content{
+  background-color: rgba(77, 103, 255, .7);
+  max-width:1000px;
+  height:110px;
+  border:1px solid yellow;
+  border-radius:20px;
+  padding: 10px;
+  text-align:center;
+  color:silver;
+}
+        
+</style>
+                                                                                              
+</head>
+  
+<body>
+  <main>
+
+    <header>
+      <div class="header-content">
+        <h1>Beri József "b3ri"</h1>
+        <h2><i class="fa fa-address-card"></i> Budapest, 11 ker.</h2>
+        <h3>Webfejlesztő Tanonc</h3>
+      
+      <div class="header-image">
+          <img src="http://kepkezelo.com/images/34b522ud32un273lwexl.png" alt="logó" title="b3ri">
+      </div>
+    </div>
+    </header>
+
+    <article>
+      <div class="content">
+        <h2>Rólam:</h2>
+        <div class="left content-image">
+          <img src="http://kepkezelo.com/images/bw5qbv82a5bqdp0ob7ha.jpg" alt="Én" title="b3ri">
+        </div>
+        <div class="right">
+          <p>Érdekel a kódolás. A "hobbim" és hivatásom az, hogy alkossak! Kész vagyok tanulni, és igyekszem mindig a legjobbat kihozni magamból!
+        </p>
+        </div>
+      </div>
+    </article>
+    
+    <footer>
+      <div class="footer-content">
+        
+        <ul>
+          
+          <li><li><a href="https://twitter.com/#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          
+          <li><a href="https://www.youtube.com/channel/UCZSdGiLD7DGzbrTjCQKfifQ" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+          
+          <li><a href="https://www.facebook.com/berijoci" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+          
+        </ul>
+        <p> Kérlek vedd fel felem a kapcsolatot facebook oldalamon!, vagy az e-mail címemen:<br> berijoci kukac gmail.com </p>
+        
+      </div>
+        
+    </footer>
+    
+  </main>
+<script src="https://static.jsbin.com/js/render/edit.js?4.1.8"></script>
+<script>jsbinShowEdit && jsbinShowEdit({"static":"https://static.jsbin.com","root":"https://jsbin.com"});</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1656750-34', 'auto');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
+
+
+
